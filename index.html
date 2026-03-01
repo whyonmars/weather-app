@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <title>Landing</title>
+    <link href="styles/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+			<h1><center>Weather App</center></h1>
+			<div class="searchContainer">
+				<input	
+					class="inputField"
+					id="cityField"
+					placeholder="Enter city name..."
+					text="text"
+				/>
+				<button id="searchBtn">Search</button>
+			</div>
+			<div id="weatherContainer">
+				<h2 id="cityName"></h2>
+				<p id="temperature"></p>
+				<p id="condition"></p>
+				<p id="windeSpeed"></p>
+			</div>
+			<p id="errorMessage"></p>
+			
+		</div>
+		<script src="script.js"></script>
+    </body>
+</html>
